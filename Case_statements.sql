@@ -13,8 +13,8 @@ from employee_demographics;
 select employee_id ,first_name ,last_name , occupation , salary,
 case 
 when salary <50000 then salary +(salary * 0.05)
-when salary >50000 then salary +(salary * 0.07)
-when occupation = 'Finance' then salary +(salary * 0.1)
+when salary >50000 then salary +(salary * 0.07) employee_demographics
+when occupation = 'Finance' then salary +(salary * 0.1)employee_demographics
 end Bonus
 from employee_salary; 
 
